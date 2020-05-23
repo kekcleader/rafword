@@ -7,7 +7,5 @@ Allows to use `[rafword]something[/rafword]` to translate individual words in po
 The language files that hold translations are located in the `translations` subfolder.
 
 ### More at
-
-https://radioflot.com
-
-https://freeoberon.su
+* https://radioflot.com/en
+* https://freeoberon.su/en
