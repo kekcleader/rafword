@@ -1,0 +1,20 @@
+
+# These functions can be overriden in theme's functions.php
+
+function rafword_get_lang_folder() {
+  return dirname(__FILE__).'/translations/';
+}
+
+function rafword_get_def_lang() {
+  return 'en';
+}
+
+function rafword_get_lang() {
+  $lang = @$_GET['lang'];
+  $lang = trim(strtolower($lang));
+  if (!$lang) {
+    $lang = rafword_get_def_lang();
+  }
+  return $lang;
+}
+
