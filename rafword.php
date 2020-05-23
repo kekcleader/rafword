@@ -4,8 +4,8 @@ Plugin Name: RAF Word
 Plugin URI: http://safard.tut.su/rafword
 Description: Allows to use [rafword]something[/rafword] to translate individual words in posts and pages, as well as rafword(). Also works with standard __('something', 'rafword'). Uses simple TXT language files for word translation.
 Version: 0.1
-Author: Artur Efimov
-Author URI: http://safard.tut.su/artur-efimov
+Author: Arthur Yefimov
+Author URI: http://radioflot.com
 */
 
 if (!function_exists('rafword_get_lang_folder')) {
